@@ -1,0 +1,15 @@
+checkImpossibleBreak: 
+    checkTypes:
+        - BED_BLOCK
+    maxDistance: 9
+    searchDepth: 16
+checkBreakSpeed:
+    enable: true
+    maxBreakSpeed: 200
+messages:
+    broadcast:
+        impossibleBreak: "&7\u73a9\u5bb6 %s &7\u56e0\u4f7f\u7528\u9694\u7a7a\u62c6\u5e8a\u4f5c\u5f0a\u88ab\u8e22\u51fa\u6e38\u620f"
+        fastBreak: "&7\u73a9\u5bb6 %s &7\u56e0\u4f7f\u7528\u81ea\u52a8\u62c6\u5e8a\u88ab\u8e22\u51fa\u6e38\u620f"
+    kick:
+        impossibleBreak: "&c\u68c0\u6d4b\u5230\u9694\u7a7a\u62c6\u5e8a\u4f5c\u5f0a"
+        fastBreak: "&c\u68c0\u6d4b\u5230\u81ea\u52a8\u62c6\u5e8a\u4f5c\u5f0a"
